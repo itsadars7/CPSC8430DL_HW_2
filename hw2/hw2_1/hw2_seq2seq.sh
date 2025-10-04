@@ -8,7 +8,7 @@ if [[ $# -lt 2 ]]; then
   exit 1
 fi
 
-DATA_DIR="../../MLDS_hw2_1_data"
+DATA_DIR="../../../../MLDS_hw2_1_data"
 OUT_TXT="testset_output.txt"
 
 CKPT="${CKPT:-seq2seq_model/ep199.pt}"
